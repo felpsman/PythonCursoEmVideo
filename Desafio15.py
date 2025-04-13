@@ -1,0 +1,6 @@
+print("Quantos Dias ficou alugado? ")
+dias=int(input())
+print("Quantos Km rodou? ")
+km=float(input())
+print("O preco por dias sera de: {}".format(dias*60))
+print("O preco de combustivel sera de: {}".format(km*0.15))

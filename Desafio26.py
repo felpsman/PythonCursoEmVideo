@@ -1,0 +1,5 @@
+print("Digite um frase: ")
+frase=input()
+print("A palavra 'a' aparece quantas vezes na frase? {}".format(frase.count("a")))
+print("Quando foi a primeira vez que ela apareceu? {}".format(frase.find("a")))
+print("Quando foi a ultima vez que ela apareceu? {}".format(frase.rfind("a")))
